@@ -40,6 +40,7 @@ ___
 ### Education
 
 * Moscow State Industrial University
+
 ___
 
 ### Code Example
@@ -51,6 +52,7 @@ function digitize(n) {
 }
 digitize()
 ~~~
+
 ___
 
 ### Courses
