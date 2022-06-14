@@ -1,0 +1,37 @@
+body {
+    width: 1170px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__h1 {
+    font-size: 44px;
+    font-weight: 600;
+
+}
+.header__h2 {
+
+}
+.header__img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo {
+    width: 200px;
+}
