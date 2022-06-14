@@ -2,10 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="photo">My photo</div>
+    <header class="header">
+        <div class="header__name">
+            <h1 class="header__h1">Dmitrii Khomutov</h1>
+            <h3 class="header__h2">Frontend developer</h3>
+        </div>
+        <img src="./images/IMG_5242.jpg" alt="i'm" class="header__img">
+    </header>
+    <main class="main">
+        <div class="main main__info">
+            <h2>Contact information</h2>
+            <ul class="main__ul">
+                <li class="main__li"><a href="tel:+79998010818">Phone: +7 999 801 08 18</a></li>
+                <li class="main__li"><a href="mailto:starburg1405@gmail.com">Email: starburg1405@gmail.com</a></li>
+                <li class="main__li"><a href="https://tlgg.ru/@xdv84" target="_blank">Telegram: @xdv84</a></li>
+                <li class="main__li"><a href="https://github.com/xdv84" target="_blank">GitHub: @xdv84</a></li>
+                <li class="main__li"><a href="https://www.linkedin.com/in/dmitrii-khomutov" target="_blank">Linkedin: dmitrii-khomutov</a></li>
+                <li class="main__li">Discord: Dmitrii X. (xdv84)#3851</a></li>
+            </ul>
+        </div>
+        <div class="main main__about">
+            <h2>About me</h2>
+            <p class="main__p">I worked for 6 years at an IT company as an engineer.
+                I also have a company that organizes fitness tours around the world.
+                Now I want to study frontend development and find a job in a foreign company.
+            </p>
+        </div>
+        <div class="main main__skills">
+            <h2>Skills</h2>
+            <ul class="main__ul">
+                <li class="main__li">HTML</li>
+                <li class="main__li">CSS</li>
+                <li class="main__li">JS</li>
+                <li class="main__li">Git</li>
+                <li class="main__li">GitHub</li>
+                <li class="main__li">Figma</li>
+            </ul>
+        </div>
+        <div class="main main__education">
+            <h2>Education</h2>
+            <ul class="main__ul">
+                <li class="main__li">Moscow State Industrial University</li>
+            </ul>
+        </div>
+        <div class="main main__code">
+            <h2>Code example</h2>
+            <pre class="main__example">
+                function digitize(n) {
+                n = String(n).split('').reverse().map(Number);
+                return n;
+                }
+                digitize()</pre>
+        </div>
+        <div class="main main__courses">
+            <h2>Courses</h2>
+            <ul class="main__ul">
+                <li class="main__li">Youtube</li>
+            </ul>
+        </div>
+        <div class="main main__languages">
+            <h2>Languages</h2>
+            <ul class="main__ul">
+                <li class="main__li">Russian</li>
+                <li class="main__li">English</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/xdv84" class="footer__git" target="_blank">GitHub</a>
+        <a href="https://rs.school/js/" class="footer__logo" target="_blank">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="logo_rsschool">
+        </a>
+        <p class="footer__year">© 2022</p>
+    </footer>
 </body>
 </html>
